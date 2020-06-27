@@ -1,0 +1,121 @@
+
+.chart-container {
+	width:  80%;
+	height: 480px;
+	margin: 0 auto;
+}
+
+.pie-chart-container {
+	width : 360px;
+	height : 360px;
+	float : left;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: green;
+    font-family:Verdana;
+    border: 3px solid #73AD21;
+    font-size:18px;
+
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size:12px;
+}
+
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size:12px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    position: relative;
+    right: 46%;
+    top:12px;
+    }
+
+.button1 {
+    position: absolute;
+    top: 8px;
+    left: 55%;
+    right:auto;
+    font-size:18px;
+}
+
+.button2 {
+    position: absolute;
+    top: 8px;
+    font-size:18px;
+    left: 5%;
+    font-size:18px;
+}
+
+.button3 {
+    position: absolute;
+    top: 30px;
+    font-size:18px;
+    left: 5%;
+    font-size:18px;
+
+}
+
+.button4 {
+    position: absolute;
+    top: 30px;
+    font-size:18px;
+    right: 5%;
+    font-size:18px;
+
+
+}
+.pos {
+    position: relative;
+}
+
+} 
+    th{
+    border: 2px solid black;
+}
+
+   td {
+    border: 1px solid black;
+        text-align: center;
+
+}
+
+.redcont
+{
+    position: relative;
+    text-align: center;
+    font-size:14px;
+    font-weight: bold;
+    background-color:red;
+
+}
+
