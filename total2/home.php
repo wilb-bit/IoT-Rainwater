@@ -51,7 +51,7 @@ $result = $conn->query($sql);
     </p>
 
 </div>
-<div class="redcont">
+<div class="redcont"> // Alert - will display if water level drops suddenl between readings.
 <?php 
 while ($row = $result->fetch_assoc())
     {
@@ -61,7 +61,7 @@ echo "ALERT! between ".htmlspecialchars($row['starttime'], ENT_HTML5, 'UTF-8')."
 
     ?>
 </div>
-<div style="text-align: center">
+<div style="text-align: center"> // Clear alerts button
 <form action="/total2/delete_alerts.php">
 
                 <input type="submit" value="Clear Alerts if Present">
@@ -69,7 +69,7 @@ echo "ALERT! between ".htmlspecialchars($row['starttime'], ENT_HTML5, 'UTF-8')."
         </form>    
 </div>
 
-<div class="pos">
+<div class="pos"> // User can select a graph or a table to view their data.
     <div class="button1"><a href="graph.php">Graph</a></div><br>
     <img class="button3" src="./img/table.PNG" alt="Snow" style="width:45%;">
         <img class="button4" src="./img/graph.PNG" alt="Snow" style="width:40%;">
