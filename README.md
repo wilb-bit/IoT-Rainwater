@@ -11,4 +11,6 @@ home.php is the home page
 
 ## IoT device
 Code located in other respository (IoT-Rainwater-Tank-Device) 
-https://github.com/wilb-bit/IoT-Rainwater-Tank-Device
+https://github.com/wilb-bit/IoT-Rainwater-Tank-Device  
+
+NodeMCU (ESP8266) programmed with Arduino IDE. Ultrasonic range sensor used to find the distance between the top of the tank and the water level.
