@@ -7,7 +7,7 @@ Penultimate yearlong project
 • Apache webserver developed (HTML, PHP, SQL) with a login system, a MySQL database, Graphical User Interface (GUI), and an API for communication with an IoT device (ESP8266). IoT device programmed with C++.
 
 This was the webserver used for the project. XAMPP was installed to have a Apache web server and MySQL database running on my computer.
-home.php is the home page
+home.php is the home page. water/receive.php is the API to receive data form the IoT device.
 
 ## IoT device
 Code located in other respository (IoT-Rainwater-Tank-Device) 
